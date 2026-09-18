@@ -16,12 +16,15 @@ public class KartuMahasiswa {
         System.out.print("Golongan darah : ");
         char golonganDarah = scanner.next().charAt(0);
 
-        // Menampilkan hasil input
+        System.out.print("Sudah menikah  : ");
+        boolean sudahMenikah = scanner.nextBoolean();
+
         System.out.println("\n===== DATA MAHASISWA =====");
         System.out.println("NIK            : " + nik);
         System.out.println("Umur           : " + umur);
         System.out.println("Tinggi Badan   : " + tinggiBadan);
         System.out.println("Golongan Darah : " + golonganDarah);
+        System.out.println("Sudah Menikah  : " + sudahMenikah);
 
         scanner.close();
     }
