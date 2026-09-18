@@ -19,12 +19,18 @@ public class KartuMahasiswa {
         System.out.print("Sudah menikah  : ");
         boolean sudahMenikah = scanner.nextBoolean();
 
+        scanner.nextLine();
+
+        System.out.print("Nama lengkap   : ");
+        String namaLengkap = scanner.nextLine();
+
         System.out.println("\n===== DATA MAHASISWA =====");
         System.out.println("NIK            : " + nik);
         System.out.println("Umur           : " + umur);
         System.out.println("Tinggi Badan   : " + tinggiBadan);
         System.out.println("Golongan Darah : " + golonganDarah);
         System.out.println("Sudah Menikah  : " + sudahMenikah);
+        System.out.println("Nama Lengkap   : " + namaLengkap);
 
         scanner.close();
     }
